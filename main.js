@@ -1,4 +1,5 @@
+
+const p = document.getElementById('test')
 let url = prompt('URL:')
-const p = document.getElementById('url')
 p.innerHTML = url
 
