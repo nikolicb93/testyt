@@ -1,6 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
+  
+});
+
+function setEnv(){
   const p = document.getElementById('test');
   let url = prompt('URL:');
-  alert(url);
+  //alert(url);
   p.innerHTML = url;
-});
+}
