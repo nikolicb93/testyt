@@ -1,7 +1,6 @@
-
-const p = document.getElementById('test')
-let url = prompt('URL:')
-alert(url)
-p.innerHTML = url
-
-
+document.addEventListener('DOMContentLoaded', () => {
+  const p = document.getElementById('test');
+  let url = prompt('URL:');
+  alert(url);
+  p.innerHTML = url;
+});
