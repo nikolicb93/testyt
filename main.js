@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function setEnv(){
-  const p = document.getElementById('test');
+  let vplayer = document.getElementById('vplayer');
   let url = prompt('URL:');
   //alert(url);
-  p.innerHTML = url;
+  vplayer.setAttribute("src",`${url}`)
 }
