@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  
+  setEnv()
 });
 
 function setEnv(){
