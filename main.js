@@ -1,3 +1,3 @@
 const t = document.getElementById("test");
-localStorage.setItem("1", "jedan");
-t.innerHTML = localStorage.getItem("1")
+window.localStorage.setItem("1", "jedan");
+t.innerHTML = window.localStorage.getItem("1")
